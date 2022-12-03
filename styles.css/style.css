@@ -10,7 +10,6 @@ html {
 }
 
 p {
-    font-weight: 400;
     margin: 0;
     padding: 0;
 }
@@ -41,7 +40,7 @@ html,
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -118,7 +117,7 @@ body {
 
 .header-contacts__link {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -160,7 +159,6 @@ body {
     font-size: 12px;
     line-height: 1.33;
     color: #434455;
-    font-weight: 400;
 }
 /*Header styles*/
 
@@ -174,7 +172,7 @@ body {
 .specialty-title,
 .team-title {
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 }
 .specialty-list {
@@ -199,7 +197,6 @@ body {
     letter-spacing: 0.02em;
 }
 .team-subscribe {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -216,13 +213,13 @@ body {
 .logo {
 }
 .logo-link {
+    color: #2e2f42;
 }
 .logo-link--blue {
 }
 .logo-link--black {
 }
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -231,6 +228,10 @@ body {
 
 .blank {
     color: #ffffff;
+}
+
+.logo-footer {
+    color: #e7e9fc;
 }
 /*Footer*/
 
@@ -267,7 +268,6 @@ body {
     letter-spacing: 0.02em;
 }
 .portfolio-item__descr {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
